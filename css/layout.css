@@ -1,4 +1,4 @@
-/********** Fixes **********/
+/* Fixes */
 
 * {
   margin:0;
@@ -14,8 +14,8 @@
   display: block;
   clear: both;
   visibility: hidden;
-  height: 0;
-  line-height: 0;
+  height: 1.2em;
+  line-height: 1.2em;
 }
 
 .clear {
@@ -24,4 +24,36 @@
 
 /* Positioning Classes */
 
+.col1l {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+}
 
+.col1m {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+}
+
+.col1r {
+	float: left;
+	width: 32%;
+}
+
+.col2l {
+	float: left;
+	width: 66%;
+	margin-right: 2%;
+}
+
+.col3 {
+	float: none;
+	width: 100%;
+}
+
+/* Additional Layout Correction */
+
+#featured_brands {
+	margin-top: 20px;
+}
